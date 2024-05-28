@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 3: Your Review</title>
+    <Style>
+        .field-size {
+            width: 589px;
+            padding-left: 20px;
+        }
+        .font-sizetable {
+            font-size: 21px;
+        }
+        .th1 {
+            width: 175px;
+            height: 50px;
+            background-color: lightgreen;
+            border: none;
+        }
+        .th2 {
+            width: 250px;
+            background-color: lightgreen;
+            border: none;
+        }
+        .th3 {
+            width: 200px;
+            background-color: lightblue;
+            border: none;
+        }
+        .th {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .field-text-size {
+            font-size: 21px;
+            font-weight: bold;
+        }
+        .img-align {
+            display: inline-block;
+        }
+        .margin-center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        figure {
+            margin-left: auto;
+        }
+    </Style>
+</head>
+<body>
+    <table class="font-sizetable text-formattable margin-center" cellspacing="0" cellpadding="0">
+        <tr>
+            <th class="th1 th">Step 1: Account</th>
+            <th class="th2 th">Step 2: Personal Details</th>
+            <th class="th3 th">Step 3: Your Review</th>
+        </tr>
+    </table>
+    <br />
+    <br />  
+    <fieldset class="field-size field-text-size margin-center">
+        <legend>Your Review</legend>
+        <form>
+            <br />
+            <label for="select">How did you hear about us:</label>
+            <select id="select">
+                <option disabled selected>Select any value</option>
+                <option value="social media">Social Media </option>
+                <option value="Advertisment">Advertisement</option>
+                <option value="Friends Circle">Friends Circle</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Others">Others</option>
+            </select>
+            <br />
+            <br />
+            <label>Would you visit again ?</label>
+            <br />
+            <input type="radio" id="Yes" name="Y">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="Y">
+            <label for="No">No</label>
+            <input type="radio" id="maybe" name="Y">
+            <label for="maybe">May be</label>
+            <br />
+            <br />
+            <label for="comment">Comments:</label>
+            <br />
+            <textarea id="comment" cols="50" rows="4.75" placeholder="Enter your comments here...."></textarea>
+            <br />
+            <br />
+            <label for="file">Documents:</label>
+            <br />
+            <input type="file" id="file">
+            <br />
+            <br />
+            <input type="checkbox" id="Sign">
+            <label for="Sign">Sign me up for email updates</label>
+            <figure class="img-align">
+                <a href="./Personaldetails.html"><img src="./Images/back.png" alt="logo" width="150px"></a>
+                <a href="./index.html"><img src="./Images/submit.png" alt="logo" width="150px"></a>
+            </figure>
+         </form>
+    </fieldset>
+    </div>
+</body>
+</html>
